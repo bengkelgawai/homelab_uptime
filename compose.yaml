@@ -7,4 +7,4 @@ services:
       - ./data:/app/data
       - /var/run/docker.sock:/var/run/docker.sock:ro
     ports:
-      - "3001:3001" # Change host port if needed
+      - "3006:3001" # Change host port if needed
